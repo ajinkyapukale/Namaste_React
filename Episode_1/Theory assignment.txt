@@ -1,0 +1,60 @@
+Que.1 What is Emmet?
+      Ans-> Emmet is a plug in for text editors which improves HTML & CSS workflow.with the help of Emmet we can use short expressions to generate HTML,CSS and other language code.
+
+      Emmet abbreviation: these special expressions are parsed in runtime and transformed into structured code block.
+
+      some important Emmet abbreviation :
+         (1) just type '!'in the editor, it will show HTML boiler plate.
+         (2) element name{text content}-generate a tag with the text that is specified inside the curly beaces({}).
+         (3) '>' operator is used to generate nested elements.
+         (4) if we want to create html element and assign class or id as well then we can use '#' for id and '.' for class .
+         (5) '+' operator is uesd to generate sibling.
+         (6) '()' operator is used to group complex abbreviations.
+         (7) 'lorem' using these we can get placeholder text.
+         (8)these can be also helpful in CSS, as we dont have to remember long property names.we can just use short expressions to assign values to properties.
+
+Que.2  Difference between a Library and Framework.
+Ans->  we use the terms “library” and “framework” as if they were the same. But there is a difference.  
+     they both are reusable code written by someone else. 
+     We can use a house as a metaphor to explain the difference between these concepts:
+
+     A library is like building your home from scratch, you have the choice to make your house as you wish, with any architecture you like, you can sort your rooms in the way you like.
+
+     On the other hand, Framework is like buying a new house, you don’t have to deal with building problems, but you can’t choose how to sort your rooms because the house is already built.
+
+Que.3 What is CDN? Why we do use it?
+     Ans->  stands for content delivery network. CDN is a network of interconnected servers that speeds up webpage  loading for data-heavy applications. When a user visits a website, data from that website's server has to travel across the internet to reach the user's computer. If the user is located far from that server, it will take a long time to load a large file, such as a video or website image. Instead, the website content is stored on CDN servers geog raphically closer  to the users and reaches their computers much faster.    
+
+     important reasons for use CDN:
+     (1) it can reduce the loading time of page.
+     (2) it can reduce the bandwidth costs.
+     (3) it can increase content availability in hardware failure and handles more traffic and reduce the load on web servers.
+
+
+Que.4 What is crossorigin in script tag?
+     Ans-> The purpose of crossorigin attribute is used to share the resources from one domain to  another domain. Basically, it is used to handle the CORS request. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources from other domains. The resources may include Audio, Video, Images, Link or external script that specifies whether to support a cross-origin request or not.
+
+     CORS: It stands for cross-origin resource sharing. It is a mechanism by which one webpage requests to another domain for fetching out the resource like audio, video, script, etc. from the third party server without leaking their credentials information. 
+
+     Values:this attribute has two values-
+      (1) anonymous-It has a default value. It defines a CORS request which will be sent without passing the credential information.
+      (2) use-credentials: A cross-origin request will be sent with credentials, cookies, and certificate.
+
+Que.5 Why is React known as React?
+     Ans-> React is a JavaScript library for building user interfaces. It was developed by Facebook, and the name “React” was chosen because it is meant to help developers build user interfaces that are fast and responsive, or “reactive.” The library was designed to “react” to changes in data.  
+
+
+
+Que.6 What is diffference between React and ReactDom?
+Ans-> React: React is a javascript library, designed for building better user interfaces.
+      React-DOM: React-DOM is a complimentary library to React which glues React to the browser DOM.
+
+Que.7 What is difference between react.development.js and react.production.js files via CDN?
+Ans-> react.development.js - More developer friendly, readable, will take more size.
+     react.production.js - Minified code that is not developer friendly as it focused on decreasing in file size, code efficiency.
+
+
+Que.8 What is async and defer?
+     Ans-> Async scripts are executed as soon as the script is loaded, so it doesn't guarantee  the order of execution (a script you included at the end may execute before the first script file )
+
+      Defer scripts guarantees the order of execution in which they appear in the page.
