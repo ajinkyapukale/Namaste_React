@@ -1,0 +1,14 @@
+Que.1 What is Emmet?
+      Ans- Emmet is a plug in for text editors which improves HTML & CSS workflow.with the help of Emmet we can use short expressions to generate HTML,CSS and other language code.
+
+      Emmet abbreviation: these special expressions are parsed in runtime and transformed into structured code block.
+
+      some important Emmet abbreviation :
+         (1) just type '!'in the editor, it will show HTML boiler plate.
+         (2) element name{text content}-generate a tag with the text that is specified inside the curly beaces({}).
+         (3) '>' operator is used to generate nested elements.
+         (4) if we want to create html element and assign class or id as well then we can use '#' for id and '.' for class .
+         (5) '+' operator is uesd to generate sibling.
+         (6) '()' operator is used to group complex abbreviations.
+         (7) 'lorem' using these we can get placeholder text.
+         (8)these can be also helpful in CSS, as we dont have to remember long property names.we can just use short expressions to assign values to properties.
